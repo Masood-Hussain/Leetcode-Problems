@@ -1,4 +1,4 @@
-public class Solution {
+ Class EatLunch(queue){
 
     public int countStudents(int[] students, int[] sandwiches) {
         int ones = 0; 

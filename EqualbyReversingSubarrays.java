@@ -1,4 +1,4 @@
-class Solution {
+class EqualbyReversingSubarrays {
     public boolean canBeEqual(int[] target, int[] arr) {
         Arrays.sort(target);
         Arrays.sort(arr);
