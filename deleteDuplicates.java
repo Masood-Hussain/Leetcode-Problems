@@ -1,4 +1,10 @@
-class Solution {
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode(int x) { val = x; }
+}
+
+class DeleteDuplicates {
     public ListNode deleteDuplicates(ListNode head) {
             if (head == null) {
             return null;

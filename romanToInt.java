@@ -1,4 +1,5 @@
-class Solution {
+import java.util.HashMap;
+class RomanToInt {
     public int romanToInt(String s) {
         HashMap<Character, Integer> roman = new HashMap<>();
         roman.put('I', 1);
