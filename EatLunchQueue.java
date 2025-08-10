@@ -1,8 +1,7 @@
- Class EatLunch(queue){
-
+class EatLunchQueue {
     public int countStudents(int[] students, int[] sandwiches) {
-        int ones = 0; 
-        int zeros = 0; 
+        int ones = 0;
+        int zeros = 0;
 
         for (int student : students) {
             if (student == 1) ones++;
@@ -19,6 +18,6 @@
             }
         }
 
-        return zeros + ones; 
+        return zeros + ones;
     }
 }

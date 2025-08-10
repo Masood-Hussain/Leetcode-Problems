@@ -1,4 +1,11 @@
-class Solution {
+class ReverseLinkedListSolution {
+    // Local ListNode to satisfy type resolution in this file
+    static class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { val = x; }
+    }
+
     public ListNode reverseList(ListNode head) 
     {
      if (head == null) {

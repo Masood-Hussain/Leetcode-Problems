@@ -1,4 +1,4 @@
-class Solution {
+class ReverseDegreeSolution {
     public int reverseDegree(String s) {
         s = s.toLowerCase();
         int reverseDegree = 0;

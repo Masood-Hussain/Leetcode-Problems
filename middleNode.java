@@ -1,4 +1,4 @@
-class Solution {
+class MiddleNodeSolution {
     public ListNode middleNode(ListNode head) {
     int count = 0;
             ListNode p = head;

@@ -1,4 +1,4 @@
-class Solution {
+class LargestPositiveSolution {
     public int findMaxK(int[] nums) {
          int max = -1; 
 

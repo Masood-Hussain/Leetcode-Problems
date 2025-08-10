@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class EqualbyReversingSubarrays {
     public boolean canBeEqual(int[] target, int[] arr) {
         Arrays.sort(target);

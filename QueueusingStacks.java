@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 class MyQueue {
     private Stack<Integer> pushStack;
     private Stack<Integer> popStack;

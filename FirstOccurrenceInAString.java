@@ -1,4 +1,4 @@
-class FirstOccurrenceInAString {
+public class FirstOccurrenceInAString {
     public static int strStr(String haystack, String needle) {
         int n = haystack.length();
         int m = needle.length();
